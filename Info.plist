@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSHealthShareUsageDescription</key>
+	<string>GymApp reads your workout data to track your training history.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>GymApp saves your completed workouts to Apple Health.</string>
+</dict>
+</plist>

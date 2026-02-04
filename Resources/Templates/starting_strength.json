@@ -1,0 +1,70 @@
+{
+  "id": "starting_strength",
+  "name": "Starting Strength",
+  "description": "Classic novice linear progression program. Three days per week alternating between two workouts. Focuses on the barbell compound lifts with simple progressive overload.",
+  "goals": ["strength", "generalFitness"],
+  "experienceLevels": ["beginner"],
+  "daysPerWeek": 3,
+  "estimatedSessionMinutes": 60,
+  "requiredEquipment": ["barbell"],
+  "days": [
+    {
+      "name": "Workout A",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Back Squat",
+          "sets": 3,
+          "repMin": 5,
+          "repMax": 5,
+          "restSeconds": 180,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Barbell Bench Press",
+          "sets": 3,
+          "repMin": 5,
+          "repMax": 5,
+          "restSeconds": 180,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Barbell Deadlift",
+          "sets": 1,
+          "repMin": 5,
+          "repMax": 5,
+          "restSeconds": 300,
+          "equipmentType": "barbell"
+        }
+      ]
+    },
+    {
+      "name": "Workout B",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Back Squat",
+          "sets": 3,
+          "repMin": 5,
+          "repMax": 5,
+          "restSeconds": 180,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Barbell Overhead Press",
+          "sets": 3,
+          "repMin": 5,
+          "repMax": 5,
+          "restSeconds": 180,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Power Clean",
+          "sets": 5,
+          "repMin": 3,
+          "repMax": 3,
+          "restSeconds": 180,
+          "equipmentType": "barbell"
+        }
+      ]
+    }
+  ]
+}

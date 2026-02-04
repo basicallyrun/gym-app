@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Barbell Back Squat",
+    "category": "compound",
+    "muscleGroups": ["quads", "glutes", "hamstrings"],
+    "equipmentType": "barbell",
+    "notes": "King of lower body exercises. Keep chest up, break at hips and knees simultaneously."
+  },
+  {
+    "name": "Barbell Front Squat",
+    "category": "compound",
+    "muscleGroups": ["quads", "glutes"],
+    "equipmentType": "barbell",
+    "notes": "Emphasizes quads more than back squat. Requires good wrist and thoracic mobility."
+  },
+  {
+    "name": "Barbell Bench Press",
+    "category": "compound",
+    "muscleGroups": ["chest", "triceps", "shoulders"],
+    "equipmentType": "barbell",
+    "notes": "Primary horizontal press. Arch back slightly, retract shoulder blades."
+  },
+  {
+    "name": "Incline Barbell Bench Press",
+    "category": "compound",
+    "muscleGroups": ["chest", "shoulders", "triceps"],
+    "equipmentType": "barbell",
+    "notes": "Targets upper chest. Set bench to 30-45 degrees."
+  },
+  {
+    "name": "Barbell Overhead Press",
+    "category": "compound",
+    "muscleGroups": ["shoulders", "triceps"],
+    "equipmentType": "barbell",
+    "notes": "Strict press from shoulders to lockout. Brace core throughout."
+  },
+  {
+    "name": "Barbell Deadlift",
+    "category": "compound",
+    "muscleGroups": ["back", "hamstrings", "glutes"],
+    "equipmentType": "barbell",
+    "notes": "Full posterior chain movement. Maintain neutral spine throughout."
+  },
+  {
+    "name": "Sumo Deadlift",
+    "category": "compound",
+    "muscleGroups": ["back", "hamstrings", "glutes", "quads"],
+    "equipmentType": "barbell",
+    "notes": "Wide stance variation. Better for lifters with longer torsos."
+  },
+  {
+    "name": "Romanian Deadlift",
+    "category": "compound",
+    "muscleGroups": ["hamstrings", "glutes", "back"],
+    "equipmentType": "barbell",
+    "notes": "Hip hinge with slight knee bend. Feel the stretch in hamstrings."
+  },
+  {
+    "name": "Barbell Row",
+    "category": "compound",
+    "muscleGroups": ["back", "biceps"],
+    "equipmentType": "barbell",
+    "notes": "Bent over row. Keep torso at roughly 45 degrees, pull to lower chest."
+  },
+  {
+    "name": "Pendlay Row",
+    "category": "compound",
+    "muscleGroups": ["back", "biceps"],
+    "equipmentType": "barbell",
+    "notes": "Strict barbell row from the floor each rep. Torso parallel to ground."
+  },
+  {
+    "name": "Power Clean",
+    "category": "compound",
+    "muscleGroups": ["back", "shoulders", "quads", "hamstrings", "glutes"],
+    "equipmentType": "barbell",
+    "notes": "Olympic lift variation. Explosive pull from floor to front rack position."
+  },
+  {
+    "name": "Barbell Hip Thrust",
+    "category": "compound",
+    "muscleGroups": ["glutes", "hamstrings"],
+    "equipmentType": "barbell",
+    "notes": "Back against bench, drive hips up. Squeeze glutes at top."
+  },
+  {
+    "name": "Barbell Curl",
+    "category": "isolation",
+    "muscleGroups": ["biceps"],
+    "equipmentType": "barbell",
+    "notes": "Keep elbows pinned to sides. Control the eccentric."
+  },
+  {
+    "name": "Close Grip Bench Press",
+    "category": "compound",
+    "muscleGroups": ["triceps", "chest"],
+    "equipmentType": "barbell",
+    "notes": "Hands shoulder-width apart. Emphasizes triceps over chest."
+  },
+  {
+    "name": "Barbell Skull Crusher",
+    "category": "isolation",
+    "muscleGroups": ["triceps"],
+    "equipmentType": "barbell",
+    "notes": "Lower bar to forehead, extend arms. Keep elbows pointing up."
+  },
+  {
+    "name": "Dumbbell Bench Press",
+    "category": "compound",
+    "muscleGroups": ["chest", "triceps", "shoulders"],
+    "equipmentType": "dumbbell",
+    "notes": "Greater range of motion than barbell. Good for addressing imbalances."
+  },
+  {
+    "name": "Dumbbell Shoulder Press",
+    "category": "compound",
+    "muscleGroups": ["shoulders", "triceps"],
+    "equipmentType": "dumbbell",
+    "notes": "Seated or standing. Press dumbbells overhead to lockout."
+  },
+  {
+    "name": "Dumbbell Row",
+    "category": "compound",
+    "muscleGroups": ["back", "biceps"],
+    "equipmentType": "dumbbell",
+    "notes": "One arm at a time. Brace on bench with opposite hand and knee."
+  },
+  {
+    "name": "Dumbbell Lateral Raise",
+    "category": "isolation",
+    "muscleGroups": ["shoulders"],
+    "equipmentType": "dumbbell",
+    "notes": "Raise to shoulder height. Slight bend in elbows, controlled movement."
+  },
+  {
+    "name": "Dumbbell Bicep Curl",
+    "category": "isolation",
+    "muscleGroups": ["biceps"],
+    "equipmentType": "dumbbell",
+    "notes": "Alternate or simultaneous. Supinate wrist at top of movement."
+  },
+  {
+    "name": "Dumbbell Hammer Curl",
+    "category": "isolation",
+    "muscleGroups": ["biceps", "forearms"],
+    "equipmentType": "dumbbell",
+    "notes": "Neutral grip throughout. Targets brachioradialis and brachialis."
+  },
+  {
+    "name": "Dumbbell Tricep Overhead Extension",
+    "category": "isolation",
+    "muscleGroups": ["triceps"],
+    "equipmentType": "dumbbell",
+    "notes": "Hold one dumbbell overhead with both hands. Lower behind head."
+  },
+  {
+    "name": "Dumbbell Lunge",
+    "category": "compound",
+    "muscleGroups": ["quads", "glutes", "hamstrings"],
+    "equipmentType": "dumbbell",
+    "notes": "Step forward, lower back knee toward ground. Keep torso upright."
+  },
+  {
+    "name": "Dumbbell Romanian Deadlift",
+    "category": "compound",
+    "muscleGroups": ["hamstrings", "glutes"],
+    "equipmentType": "dumbbell",
+    "notes": "Hip hinge with dumbbells at sides. Similar to barbell RDL."
+  },
+  {
+    "name": "Goblet Squat",
+    "category": "compound",
+    "muscleGroups": ["quads", "glutes"],
+    "equipmentType": "dumbbell",
+    "notes": "Hold dumbbell at chest. Great for learning squat mechanics."
+  },
+  {
+    "name": "Dumbbell Fly",
+    "category": "isolation",
+    "muscleGroups": ["chest"],
+    "equipmentType": "dumbbell",
+    "notes": "Slight bend in elbows, arc dumbbells out and together. Feel the chest stretch."
+  },
+  {
+    "name": "Lat Pulldown",
+    "category": "compound",
+    "muscleGroups": ["back", "biceps"],
+    "equipmentType": "cable",
+    "notes": "Pull bar to upper chest. Lean back slightly, squeeze shoulder blades."
+  },
+  {
+    "name": "Seated Cable Row",
+    "category": "compound",
+    "muscleGroups": ["back", "biceps"],
+    "equipmentType": "cable",
+    "notes": "Pull handle to lower chest. Keep torso upright, squeeze at contraction."
+  },
+  {
+    "name": "Cable Fly",
+    "category": "isolation",
+    "muscleGroups": ["chest"],
+    "equipmentType": "cable",
+    "notes": "Constant tension throughout range of motion. Adjust pulley height for angles."
+  },
+  {
+    "name": "Cable Tricep Pushdown",
+    "category": "isolation",
+    "muscleGroups": ["triceps"],
+    "equipmentType": "cable",
+    "notes": "Keep elbows at sides. Extend forearms fully, squeeze at bottom."
+  },
+  {
+    "name": "Cable Face Pull",
+    "category": "isolation",
+    "muscleGroups": ["shoulders", "back"],
+    "equipmentType": "cable",
+    "notes": "Pull rope to face level, externally rotate at end. Great for rear delts and posture."
+  },
+  {
+    "name": "Cable Curl",
+    "category": "isolation",
+    "muscleGroups": ["biceps"],
+    "equipmentType": "cable",
+    "notes": "Constant tension curl. Use straight bar or EZ bar attachment."
+  },
+  {
+    "name": "Leg Press",
+    "category": "compound",
+    "muscleGroups": ["quads", "glutes"],
+    "equipmentType": "machine",
+    "notes": "Adjust foot placement for emphasis. Higher = more glutes, lower = more quads."
+  },
+  {
+    "name": "Leg Extension",
+    "category": "isolation",
+    "muscleGroups": ["quads"],
+    "equipmentType": "machine",
+    "notes": "Isolates quads. Control the weight, pause at top."
+  },
+  {
+    "name": "Leg Curl",
+    "category": "isolation",
+    "muscleGroups": ["hamstrings"],
+    "equipmentType": "machine",
+    "notes": "Lying or seated. Full range of motion, control the eccentric."
+  },
+  {
+    "name": "Hack Squat",
+    "category": "compound",
+    "muscleGroups": ["quads", "glutes"],
+    "equipmentType": "machine",
+    "notes": "Machine-guided squat pattern. Good for quad focus without spinal loading."
+  },
+  {
+    "name": "Chest Press Machine",
+    "category": "compound",
+    "muscleGroups": ["chest", "triceps"],
+    "equipmentType": "machine",
+    "notes": "Machine bench press variation. Good for beginners or burnout sets."
+  },
+  {
+    "name": "Shoulder Press Machine",
+    "category": "compound",
+    "muscleGroups": ["shoulders", "triceps"],
+    "equipmentType": "machine",
+    "notes": "Guided overhead press. Safer for heavy overhead work."
+  },
+  {
+    "name": "Calf Raise Machine",
+    "category": "isolation",
+    "muscleGroups": ["calves"],
+    "equipmentType": "machine",
+    "notes": "Full range of motion. Pause at bottom stretch and top contraction."
+  },
+  {
+    "name": "Pull-Up",
+    "category": "compound",
+    "muscleGroups": ["back", "biceps"],
+    "equipmentType": "bodyweight",
+    "notes": "Overhand grip, pull chin above bar. Add weight with belt when bodyweight is easy."
+  },
+  {
+    "name": "Chin-Up",
+    "category": "compound",
+    "muscleGroups": ["back", "biceps"],
+    "equipmentType": "bodyweight",
+    "notes": "Underhand grip. More bicep involvement than pull-ups."
+  },
+  {
+    "name": "Dip",
+    "category": "compound",
+    "muscleGroups": ["chest", "triceps", "shoulders"],
+    "equipmentType": "bodyweight",
+    "notes": "Lean forward for chest emphasis, stay upright for triceps. Add weight with belt."
+  },
+  {
+    "name": "Push-Up",
+    "category": "compound",
+    "muscleGroups": ["chest", "triceps", "shoulders"],
+    "equipmentType": "bodyweight",
+    "notes": "Body straight from head to heels. Hands slightly wider than shoulders."
+  },
+  {
+    "name": "Plank",
+    "category": "isolation",
+    "muscleGroups": ["abs"],
+    "equipmentType": "bodyweight",
+    "notes": "Hold position with body straight. Brace core, don't let hips sag."
+  },
+  {
+    "name": "Hanging Leg Raise",
+    "category": "isolation",
+    "muscleGroups": ["abs"],
+    "equipmentType": "bodyweight",
+    "notes": "Hang from bar, raise legs to parallel or higher. Control the swing."
+  },
+  {
+    "name": "Ab Wheel Rollout",
+    "category": "isolation",
+    "muscleGroups": ["abs"],
+    "equipmentType": "other",
+    "notes": "Extend out slowly, maintain hollow body position. Start from knees."
+  },
+  {
+    "name": "Barbell Shrug",
+    "category": "isolation",
+    "muscleGroups": ["back"],
+    "equipmentType": "barbell",
+    "notes": "Shrug shoulders straight up toward ears. Hold at top briefly."
+  },
+  {
+    "name": "Wrist Curl",
+    "category": "isolation",
+    "muscleGroups": ["forearms"],
+    "equipmentType": "dumbbell",
+    "notes": "Forearms on bench, curl wrists up. Builds grip and forearm size."
+  }
+]

@@ -1,0 +1,171 @@
+{
+  "id": "full_body_3x",
+  "name": "Full Body 3x/Week",
+  "description": "Three full-body sessions per week. Each workout hits all major muscle groups with a mix of compounds and accessories. Great for beginners or those with limited training days.",
+  "goals": ["generalFitness", "strength"],
+  "experienceLevels": ["beginner"],
+  "daysPerWeek": 3,
+  "estimatedSessionMinutes": 60,
+  "requiredEquipment": ["barbell", "dumbbell"],
+  "days": [
+    {
+      "name": "Day A",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Back Squat",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Barbell Bench Press",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Barbell Row",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Dumbbell Shoulder Press",
+          "sets": 2,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Bicep Curl",
+          "sets": 2,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Plank",
+          "sets": 3,
+          "repMin": 1,
+          "repMax": 1,
+          "restSeconds": 60,
+          "equipmentType": "bodyweight"
+        }
+      ]
+    },
+    {
+      "name": "Day B",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Deadlift",
+          "sets": 3,
+          "repMin": 5,
+          "repMax": 5,
+          "restSeconds": 180,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Barbell Overhead Press",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Chin-Up",
+          "sets": 3,
+          "repMin": 6,
+          "repMax": 10,
+          "restSeconds": 120,
+          "equipmentType": "bodyweight"
+        },
+        {
+          "exerciseName": "Dumbbell Lunge",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Hammer Curl",
+          "sets": 2,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Hanging Leg Raise",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "bodyweight"
+        }
+      ]
+    },
+    {
+      "name": "Day C",
+      "exercises": [
+        {
+          "exerciseName": "Goblet Squat",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Bench Press",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Row",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Romanian Deadlift",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Lateral Raise",
+          "sets": 2,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Push-Up",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 20,
+          "restSeconds": 60,
+          "equipmentType": "bodyweight"
+        }
+      ]
+    }
+  ]
+}

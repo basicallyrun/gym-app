@@ -1,0 +1,330 @@
+{
+  "id": "ppl",
+  "name": "Push Pull Legs",
+  "description": "Six-day split hitting each muscle group twice per week. Push day (chest, shoulders, triceps), Pull day (back, biceps), Legs day. High volume for hypertrophy.",
+  "goals": ["hypertrophy"],
+  "experienceLevels": ["intermediate", "advanced"],
+  "daysPerWeek": 6,
+  "estimatedSessionMinutes": 75,
+  "requiredEquipment": ["barbell", "dumbbell", "cable", "machine"],
+  "days": [
+    {
+      "name": "Push A",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Bench Press",
+          "sets": 4,
+          "repMin": 6,
+          "repMax": 8,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Dumbbell Shoulder Press",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Incline Barbell Bench Press",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 90,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Dumbbell Lateral Raise",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Cable Tricep Pushdown",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "cable"
+        },
+        {
+          "exerciseName": "Dumbbell Tricep Overhead Extension",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        }
+      ]
+    },
+    {
+      "name": "Pull A",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Row",
+          "sets": 4,
+          "repMin": 6,
+          "repMax": 8,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Pull-Up",
+          "sets": 3,
+          "repMin": 6,
+          "repMax": 10,
+          "restSeconds": 90,
+          "equipmentType": "bodyweight"
+        },
+        {
+          "exerciseName": "Seated Cable Row",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "cable"
+        },
+        {
+          "exerciseName": "Cable Face Pull",
+          "sets": 3,
+          "repMin": 15,
+          "repMax": 20,
+          "restSeconds": 60,
+          "equipmentType": "cable"
+        },
+        {
+          "exerciseName": "Dumbbell Bicep Curl",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Hammer Curl",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        }
+      ]
+    },
+    {
+      "name": "Legs A",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Back Squat",
+          "sets": 4,
+          "repMin": 6,
+          "repMax": 8,
+          "restSeconds": 180,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Romanian Deadlift",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Leg Press",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "machine"
+        },
+        {
+          "exerciseName": "Leg Curl",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "machine"
+        },
+        {
+          "exerciseName": "Leg Extension",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "machine"
+        },
+        {
+          "exerciseName": "Calf Raise Machine",
+          "sets": 4,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "machine"
+        }
+      ]
+    },
+    {
+      "name": "Push B",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Overhead Press",
+          "sets": 4,
+          "repMin": 6,
+          "repMax": 8,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Dumbbell Bench Press",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Cable Fly",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "cable"
+        },
+        {
+          "exerciseName": "Dumbbell Lateral Raise",
+          "sets": 4,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Close Grip Bench Press",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 90,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Cable Tricep Pushdown",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "cable"
+        }
+      ]
+    },
+    {
+      "name": "Pull B",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Deadlift",
+          "sets": 3,
+          "repMin": 5,
+          "repMax": 5,
+          "restSeconds": 180,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Lat Pulldown",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "cable"
+        },
+        {
+          "exerciseName": "Dumbbell Row",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Cable Face Pull",
+          "sets": 3,
+          "repMin": 15,
+          "repMax": 20,
+          "restSeconds": 60,
+          "equipmentType": "cable"
+        },
+        {
+          "exerciseName": "Barbell Curl",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 60,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Cable Curl",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "cable"
+        }
+      ]
+    },
+    {
+      "name": "Legs B",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Front Squat",
+          "sets": 4,
+          "repMin": 6,
+          "repMax": 8,
+          "restSeconds": 180,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Barbell Hip Thrust",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 12,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Hack Squat",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "machine"
+        },
+        {
+          "exerciseName": "Leg Curl",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "machine"
+        },
+        {
+          "exerciseName": "Dumbbell Lunge",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Calf Raise Machine",
+          "sets": 4,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "machine"
+        }
+      ]
+    }
+  ]
+}
