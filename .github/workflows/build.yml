@@ -28,6 +28,6 @@ jobs:
           xcodebuild build \
             -project GymApp.xcodeproj \
             -scheme GymApp \
-            -destination 'platform=iOS Simulator,name=Any iOS Simulator Device' \
+            -destination 'generic/platform=iOS Simulator' \
             -configuration Debug \
             CODE_SIGNING_ALLOWED=NO
