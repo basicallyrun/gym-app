@@ -1,0 +1,85 @@
+# Fastlane configuration for GymApp TestFlight deployment
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Deploy a new build to TestFlight"
+  lane :beta do
+    # Ensure we're on latest code
+    git_pull
+
+    # Read current build number from project.yml
+    project_yml_path = "../project.yml"
+    project_yml = YAML.load_file(project_yml_path)
+    current_version = project_yml["targets"]["GymApp"]["settings"]["base"]["CURRENT_PROJECT_VERSION"].to_i
+
+    # Increment build number
+    new_version = current_version + 1
+    UI.message "📦 Incrementing build number: #{current_version} → #{new_version}"
+
+    # Update project.yml with new build number
+    project_yml["targets"]["GymApp"]["settings"]["base"]["CURRENT_PROJECT_VERSION"] = new_version.to_s
+    File.write(project_yml_path, project_yml.to_yaml)
+
+    # Generate Xcode project with XcodeGen
+    UI.message "🔨 Generating Xcode project with XcodeGen..."
+    sh("xcodegen generate")
+
+    # Sync code signing certificates and provisioning profiles
+    UI.message "🔐 Syncing code signing with Match..."
+    match(
+      type: "appstore",
+      readonly: true,
+      app_identifier: "com.gymapp.GymApp"
+    )
+
+    # Build the app
+    UI.message "🏗️  Building IPA for TestFlight..."
+    build_app(
+      scheme: "GymApp",
+      export_method: "app-store",
+      configuration: "Release",
+      output_directory: "./fastlane/builds",
+      output_name: "GymApp.ipa",
+      clean: true,
+      export_options: {
+        provisioningProfiles: {
+          "com.gymapp.GymApp" => "match AppStore com.gymapp.GymApp"
+        }
+      }
+    )
+
+    # Upload to TestFlight
+    UI.message "🚀 Uploading to TestFlight..."
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true,
+      skip_submission: true,
+      distribute_external: false,
+      apple_id: ENV["APPLE_ID"],
+      team_id: ENV["APP_STORE_CONNECT_TEAM_ID"]
+    )
+
+    # Commit the build number bump back to the repository
+    UI.message "💾 Committing build number bump..."
+    git_commit(
+      path: [project_yml_path],
+      message: "Bump build number to #{new_version} [skip ci]"
+    )
+
+    # Push to remote
+    push_to_git_remote(
+      tags: false
+    )
+
+    UI.success "✅ Successfully deployed build #{new_version} to TestFlight!"
+  end
+
+  desc "Sync code signing certificates and provisioning profiles"
+  lane :sync_certificates do
+    match(
+      type: "appstore",
+      readonly: true,
+      app_identifier: "com.gymapp.GymApp"
+    )
+  end
+end

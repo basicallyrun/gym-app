@@ -1,0 +1,12 @@
+# Fastlane specific
+report.xml
+Preview.html
+screenshots
+test_output
+builds/
+*.ipa
+*.dSYM.zip
+*.app.dSYM.zip
+
+# Deliver temporary files
+Deliverfile

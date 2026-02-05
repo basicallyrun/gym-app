@@ -37,3 +37,15 @@ Pods/
 *.perspectivev3
 !default.perspectivev3
 *.moved-aside
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/builds/
+
+# Ruby/Bundler
+.bundle/
+vendor/bundle/
+Gemfile.lock

@@ -1,0 +1,20 @@
+# Fastlane Match configuration for code signing
+
+# Storage mode - use git for encrypted certificate storage
+storage_mode("git")
+
+# Git repository for certificates (private repo)
+# Set via MATCH_GIT_URL environment variable
+git_url(ENV["MATCH_GIT_URL"])
+
+# Certificate type
+type("appstore")
+
+# App identifier
+app_identifier(["com.gymapp.GymApp"])
+
+# Username (Apple ID)
+username(ENV["APPLE_ID"])
+
+# Team ID
+team_id(ENV["APPLE_TEAM_ID"])
