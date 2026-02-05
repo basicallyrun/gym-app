@@ -34,7 +34,7 @@ final class HealthKitService {
         totalEnergyBurned: Double? = nil,
         metadata: [String: Any]? = nil
     ) async throws {
-        guard isAuthorized else {
+        if !isAuthorized {
             try await requestAuthorization()
         }
 
