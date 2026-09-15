@@ -1,0 +1,171 @@
+{
+  "id": "beginner_hypertrophy_3day",
+  "name": "Beginner Hypertrophy 3x/Week",
+  "description": "Three-day muscle building program for beginners. Focuses on higher volume and moderate rep ranges to maximize muscle growth. Full body approach ensures each muscle group is trained frequently.",
+  "goals": ["hypertrophy"],
+  "experienceLevels": ["beginner"],
+  "daysPerWeek": 3,
+  "estimatedSessionMinutes": 50,
+  "requiredEquipment": ["barbell", "dumbbell", "bodyweight"],
+  "days": [
+    {
+      "name": "Day A - Push Focus",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Bench Press",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Goblet Squat",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Shoulder Press",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Romanian Deadlift",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Lateral Raise",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Cable Tricep Pushdown",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "cable"
+        }
+      ]
+    },
+    {
+      "name": "Day B - Pull Focus",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Row",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Barbell Back Squat",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 12,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Pull-Up",
+          "sets": 3,
+          "repMin": 6,
+          "repMax": 10,
+          "restSeconds": 90,
+          "equipmentType": "bodyweight"
+        },
+        {
+          "exerciseName": "Dumbbell Lunge",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Bicep Curl",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Hammer Curl",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        }
+      ]
+    },
+    {
+      "name": "Day C - Leg Focus",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Deadlift",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Dumbbell Bench Press",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Barbell Hip Thrust",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 90,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Dumbbell Row",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Barbell Curl",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 60,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Push-Up",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "bodyweight"
+        }
+      ]
+    }
+  ]
+}

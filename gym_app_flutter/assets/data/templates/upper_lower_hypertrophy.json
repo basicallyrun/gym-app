@@ -1,0 +1,240 @@
+{
+  "id": "upper_lower_hypertrophy",
+  "name": "Upper/Lower Hypertrophy",
+  "description": "Four-day upper/lower split focused purely on muscle building. Higher volume and moderate-to-high rep ranges optimized for hypertrophy. Includes compound movements and isolation work.",
+  "goals": ["hypertrophy"],
+  "experienceLevels": ["intermediate"],
+  "daysPerWeek": 4,
+  "estimatedSessionMinutes": 65,
+  "requiredEquipment": ["barbell", "dumbbell", "cable"],
+  "days": [
+    {
+      "name": "Upper A",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Bench Press",
+          "sets": 4,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Barbell Row",
+          "sets": 4,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Dumbbell Shoulder Press",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Lat Pulldown",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "cable"
+        },
+        {
+          "exerciseName": "Dumbbell Lateral Raise",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Cable Tricep Pushdown",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "cable"
+        },
+        {
+          "exerciseName": "Dumbbell Bicep Curl",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        }
+      ]
+    },
+    {
+      "name": "Lower A",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Back Squat",
+          "sets": 4,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 150,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Romanian Deadlift",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Leg Press",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 90,
+          "equipmentType": "machine"
+        },
+        {
+          "exerciseName": "Leg Curl",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "machine"
+        },
+        {
+          "exerciseName": "Leg Extension",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "machine"
+        },
+        {
+          "exerciseName": "Calf Raise Machine",
+          "sets": 4,
+          "repMin": 15,
+          "repMax": 20,
+          "restSeconds": 60,
+          "equipmentType": "machine"
+        }
+      ]
+    },
+    {
+      "name": "Upper B",
+      "exercises": [
+        {
+          "exerciseName": "Incline Barbell Bench Press",
+          "sets": 4,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Pull-Up",
+          "sets": 3,
+          "repMin": 8,
+          "repMax": 12,
+          "restSeconds": 120,
+          "equipmentType": "bodyweight"
+        },
+        {
+          "exerciseName": "Dumbbell Bench Press",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Seated Cable Row",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "cable"
+        },
+        {
+          "exerciseName": "Cable Face Pull",
+          "sets": 3,
+          "repMin": 15,
+          "repMax": 20,
+          "restSeconds": 60,
+          "equipmentType": "cable"
+        },
+        {
+          "exerciseName": "Dumbbell Tricep Overhead Extension",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Hammer Curl",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "dumbbell"
+        }
+      ]
+    },
+    {
+      "name": "Lower B",
+      "exercises": [
+        {
+          "exerciseName": "Barbell Front Squat",
+          "sets": 4,
+          "repMin": 8,
+          "repMax": 10,
+          "restSeconds": 150,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Barbell Hip Thrust",
+          "sets": 4,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 120,
+          "equipmentType": "barbell"
+        },
+        {
+          "exerciseName": "Dumbbell Lunge",
+          "sets": 3,
+          "repMin": 10,
+          "repMax": 12,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Dumbbell Romanian Deadlift",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 90,
+          "equipmentType": "dumbbell"
+        },
+        {
+          "exerciseName": "Leg Curl",
+          "sets": 3,
+          "repMin": 12,
+          "repMax": 15,
+          "restSeconds": 60,
+          "equipmentType": "machine"
+        },
+        {
+          "exerciseName": "Calf Raise Machine",
+          "sets": 4,
+          "repMin": 15,
+          "repMax": 20,
+          "restSeconds": 60,
+          "equipmentType": "machine"
+        }
+      ]
+    }
+  ]
+}
